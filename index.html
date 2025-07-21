@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Portafolio - Tu Nombre</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Jhon Alexander Suárez Sepúlveda</h1>
+    <p>Desarrollador Web Junior</p>
+  </header>
+
+  <nav>
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy un desarrollador web con experiencia en HTML, CSS, JavaScript y PHP. Me apasiona crear sitios web funcionales y atractivos. Busco oportunidades remotas para crecer profesionalmente.</p>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <h3>CRUD de Usuarios en PHP</h3>
+      <p>App web para gestionar usuarios. PHP + MySQL.</p>
+      <a href="#">Ver en GitHub</a>
+    </div>
+    <div class="proyecto">
+      <h3>Clon de YouTube</h3>
+      <p>Diseño responsivo con HTML, CSS y JavaScript.</p>
+      <a href="#">Ver en GitHub</a>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form onsubmit="return enviarFormulario()">
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea placeholder="Mensaje..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Tu Nombre – Todos los derechos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
